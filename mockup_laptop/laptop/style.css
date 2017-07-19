@@ -1,0 +1,108 @@
+/** laptop **/
+
+.laptop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: green;
+}
+
+.laptop > .outer-screen{
+    background-color: #000000;
+    width:85%;
+    height: 80%;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.laptop > .outer-screen > .wrapper-webcam{
+    display: flex;
+    width: 16%;
+    justify-content: center;
+    background-color: #000;
+    margin-top: -11%;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.laptop > .outer-screen > .wrapper-webcam > .webcam{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #7e8ea8;
+    border-radius: 3px;
+    /*height: 20px;
+    width: 20px;*/
+}
+
+.laptop > .outer-screen > .wrapper-webcam > .webcam > .lens-webcam{
+    width: 45%;
+    height: 45%;
+    background-color: transparent;
+    border: 3px solid #7e8ea8;
+    border-radius: 9px;
+}
+
+.laptop > .outer-screen > .inner-screen{
+    background-color: #20a8f2;
+    height:82%;
+    width: 92%;
+    border-radius: 5px;
+}
+
+.laptop .laptop-base{
+    background-color: #8898af;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 15px 15px;
+}
+
+
+.laptop .laptop-base .wrapper-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 0;
+    flex-wrap: nowrap;
+    width: 12%;
+    height: 70%;
+    align-items: center;
+}
+
+.laptop .laptop-base .wrapper-buttons span.button{
+    display: flex;
+    width: 20%;
+    height: 70%;
+    background-color: #adc4e3;
+    border-radius: 15vh;
+}
+
+.laptop .laptop-base .wrapper-buttons span.button.active{
+    background-color: #f99d5e!important;
+}
+
+/** Media Queries **/
+
+@media screen and (max-width: 768px) {
+    .laptop > .outer-screen > .wrapper-webcam > .webcam{
+        -webkit-border-radius:2px;
+        -moz-border-radius:2px;
+        border-radius:2px;
+    }
+
+    .laptop > .outer-screen > .wrapper-webcam > .webcam > .lens-webcam{
+        border: 2px solid #7e8ea8;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .laptop > .outer-screen > .wrapper-webcam > .webcam, laptop > .outer-screen > .wrapper-webcam > .webcam > .lens-webcam{
+        border: 1px solid #7e8ea8;
+     }
+}

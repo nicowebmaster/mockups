@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="16b27360-9a62-4353-bccd-6cd65e673bae" name="Wamp" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="C:\Users\Nico\Desktop\projet\website\ng-ui-application\mockup" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

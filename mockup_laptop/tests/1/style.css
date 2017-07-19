@@ -1,0 +1,13 @@
+.wrapper-laptop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    background-color: yellow;
+    height:50%;
+}

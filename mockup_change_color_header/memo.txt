@@ -1,0 +1,4 @@
+1. récuperation du nombre d'enfant .container de .main
+2. Affecter chaque valeur du tableau dans un second tableau
+3. Boucler sur la longueur du tableau et comparer la valeur du tableau avec la position du curseur	
+	
